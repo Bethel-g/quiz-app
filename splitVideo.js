@@ -171,7 +171,15 @@ clips.forEach(({ name, start, end }) => {
   ffmpeg(inputVideo)
     .setStartTime(startSec)
     .setDuration(duration)
-    .outputOptions("-c copy") // fast, no re-encode
+    // .outputOptions("-c copy") // fast, no re-
+    .outputOptions([
+  "-c:v libx264",
+  "-profile:v main",
+  "-level 3.1",
+  "-pix_fmt yuv420p",
+  "-movflags +faststart",
+  "-c:a aac"
+])
     .output(outputPath)
     .on("start", () => console.log(`▶ ${name} started`))
     .on("end", () => console.log(`✅ ${name} finished`))
