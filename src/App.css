@@ -1,0 +1,77 @@
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #f0f3f5;
+  margin: 0;
+  padding: 0;
+}
+
+.app-container {
+  max-width: 700px;
+  margin: 50px auto;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.2);
+}
+
+h1 {
+  text-align: center;
+  color: #1f3b4d;
+}
+
+.question-box {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: #e6f0ff;
+  border-left: 6px solid #007bff;
+  border-radius: 10px;
+}
+
+.options button {
+  display: block;
+  width: 100%;
+  margin: 10px 0;
+  padding: 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #007bff;
+  color: white;
+  transition: all 0.2s ease;
+}
+
+.options button:hover {
+  background-color: #0056b3;
+}
+
+.timer {
+  font-size: 18px;
+  font-weight: bold;
+  color: #ff4d4d;
+  text-align: right;
+}
+
+.next-button {
+  margin-top: 15px;
+  padding: 12px 20px;
+  font-size: 16px;
+  background-color: #28a745;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  float: right;
+}
+
+.next-button:hover {
+  background-color: #218838;
+}
+
+.result-box {
+  text-align: center;
+  background-color: #d4edda;
+  padding: 20px;
+  border-radius: 15px;
+  border: 2px solid #c3e6cb;
+}
