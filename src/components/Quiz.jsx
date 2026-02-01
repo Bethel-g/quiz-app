@@ -116,9 +116,10 @@ function Quiz({ onFinish }) {
 
       {/* EXAM HEADER */}
       <div style={styles.header}>
-        <h2 style={styles.title}></h2>
+        <h2 style={styles.title}>Online Examination</h2>
 
-      </div>
+      </div>       
+
 
       {/* PROGRESS */}
       <div style={styles.progress}>
