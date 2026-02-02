@@ -1,4 +1,5 @@
 import React from "react";
+import videos from "./Videos";
 
 function Home({ onStart }) {
   return (
@@ -57,7 +58,7 @@ function Home({ onStart }) {
         {/* 🎬 INTRO VIDEO */}
         <div style={{ marginBottom: "28px" }}>
           <video
-            src="/videos/intro.mp4" // public/videos/intro.mp4
+            src={videos.intro} // public/videos/intro.mp4
             controls
             autoPlay
             muted
