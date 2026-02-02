@@ -88,7 +88,7 @@ function Quiz({ onFinish }) {
   const [current, setCurrent] = useState(0);
   const [answers, setAnswers] = useState([]);
 
-  const EXAM_TIME = 60 * 60; // 50 hour
+  const EXAM_TIME = 70 * 60; // 1 hour
 
   function selectAnswer(optionIndex) {
     const updated = [...answers];

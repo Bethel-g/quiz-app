@@ -36,18 +36,19 @@ useEffect(() => {
       boxShadow: "0 10px 30px rgba(0,0,0,0.3)"
     }}
   >
-{/* <video
+<video
   key={data.video}
   width="100%"
   controls
   autoPlay
-  muted
+
   playsInline
   controlsList="nofullscreen nodownload noremoteplayback novolume"
   disablePictureInPicture
-> */}
+>
+  
 
-<video
+{/* <video
   key={data.video}
   width="100%"
   controls
@@ -64,7 +65,7 @@ useEffect(() => {
     e.target.muted = true;
     e.target.volume = 0;
   }}
->
+> */}
 
 
       <source src={data.video} type="video/mp4" />
