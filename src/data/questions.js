@@ -457,7 +457,7 @@
 
 
 import videos from "../components/Videos.jsx";
-// import StopIcon from "../icons/StopIcon.jsx";
+import icons from "../components/icons.jsx";  
 
 
 const questions = [
@@ -465,7 +465,7 @@ const questions = [
     id: 1,
     type: "video",                
     video: videos.vid1,
-    //icon: StopIcon, 
+    icon: icons.icon1, 
     question: " ይህ ምልክት የሚያስተላልፈው መልእክት",
     options: ["ፊት ለፊት እና ወደ ቀኝ የሚያስኬድ መገናኛ ስለሚያጋጥምህ ተጠንቅቀህ ኣሽከርክር", "ፊት ለፊት እና ወደ ግራ የሚያስኬድ መገናኛ መንገድ ስለሚያጋጥምህ ተጠንቅቀህ ኣሽከርክር", "በመንገድህ ላይ ጠባብ ድልድይ ስለሚያጋጥምህ ተጠንቅቀህ ኣሽከርክር", "መልሱ የለም"],
     correctAnswer: 1,
@@ -475,7 +475,7 @@ const questions = [
     id: 2,
     type: "video",
     video: videos.vid2, 
-    //icon: StopIcon,   
+    icon: icons.icon2,   
     question: "ይህ ምልክት የሚያስተላልፈው መልእክት",
     options: ["መንገዱ እየጠበበ የሚሄድ ስለሆነ ተጠንቅቀህ እለፍ", "ኣደገኛ ቁልቁለት ስለሚያጋጥምክ ከባድ ማርሽ በማስገባት ተጠንቅቀህ እለፍ", "የሚያንሸራትት መንገድ ስለሚያጋጥምህ ተጠንቅቀህ እለፍ", "ሁለት ነጠላ መንገድ ወደ ኣንድ ነጠና መንገድ ስለሚለወጥ ተጠንቅቀህ እለፍ"],
     correctAnswer: 1,
@@ -485,7 +485,7 @@ const questions = [
     id: 3,
     type: "video",
     video: videos.vid3,
-    //icon: StopIcon, 
+     icon: icons.icon3,   
     question: "ይህ ምልክት የሚያስተላልፈው መልእክት",
     options: ["ወደፊት የህጻናት መጫወቻ ስላለ ተጠንቅቀህ ኣሽከረክር", "የኣካል ጉዳተኞች ስላሉ ፍጥነትን በመቀነስ ኣሽከረክር", "ወደፊት የእርሻ መሳሪያዎች ስላሉ ፍጥነትን በመቀነስ እለፍ", "ወደፊት የቤት እንሰሳት ስላሉ ወደፊት ፍጥነትን በመቀነስ ተጠንቅቀህ እለፍ"],
     correctAnswer: 1,
@@ -495,7 +495,7 @@ const questions = [
     id: 4,
     type: "video",
     video: videos.vid4,
-    //icon: StopIcon
+     icon: icons.icon14,   
     question: "ይህ ምልክት የሚያስተላልፈው መልእክት",
     options: ["መንገዱ በስተቀኝ በኩል ስለሚጠብ ተጠንቅቀህ ኣሽከርከር", " ሁለት ነጠላ መንገድ ወደ ኣንድ ነጠላ መንገድ ስለሚለወጥ ተጠንቅቀህ ኣሽከርከር", "በመንገድ ኣግድም የሚነፍስ ሃይለኛ ንፋስ ስላለ ተጠንቅቀህ ኣሽከርክር", "ኣንድ መንገድ የነበረው ወደ ሁለት ነጠላ መንገድ ስለሚለወጥ ተጠንቅቀህ ኣሽከርክር"],
     correctAnswer: 1,
@@ -505,7 +505,7 @@ const questions = [
     id: 5,
     type: "video",
     video: videos.vid5,
-    //icon: StopIcon,
+     icon: icons.icon5,   
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["በመንገዱ ላይ አስጊ ወይም አደገኛ ሁኔታ ስለአለ በጥንቃቄ አሽከርክር", "ወደ ፊት የትራፊክ መብራት አለ", "ወደ ፊት ክብ አደባባይ አለ", "ወደፊት የትራፊክ መጨናነቅ ስለአለ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ"],
     correctAnswer: 2,
@@ -515,7 +515,7 @@ const questions = [
     id: 6,
     type: "video",
     video: videos.vid6,
-    //icon: StopIcon
+     icon: icons.icon6,   
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["በመንገዱ ላይ አስጊ ወይም አደገኛ ሁኔታ ስለአለ በጥንቃቄ አሽከርክር", "ወደ ፊት የትራፊክ መብራት አለ ተጠንቅቀህ አሽከርክር", "ወደ ፊት ክብ የትራፊክ ደሴት አለ ተጠንቅቀህ አሽከርክር", "Oወደ ፊት የትራፊክ መጨናነቅ ስለአለ ፍጥነትህን በመቀነስ ተጠንቅቀህ አሽከርክር"],
     correctAnswer: 1,
@@ -526,7 +526,7 @@ const questions = [
     type: "video",
     video: videos.vid7,
 
-    //icon: StopIcon
+     icon: icons.icon7,   
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ለሁለት ተከፍሎ የነበረው መንገድ ማብቂያ ስለሆነ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ ", "አደገኛ ጠመዝማዛ መንገድ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "የአስፋልት መንገድ መጨረሻ ስለአለ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "መልሱ የለም "],
     correctAnswer: 2,
@@ -536,7 +536,7 @@ const questions = [
     id: 8,
     type: "video",
     video: videos.vid8,
-    //icon: StopIcon,
+    icon: icons.icon8,   
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ናዳ ያለበት መንገድ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "ተንቀሳቃሽ/ተነሺ ድልድይ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "የአስፋልት መንገድ መጨረሻ ስለአለ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "አደገኛ ጠመዝማዛ መንገድ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ"],
     correctAnswer: 1,
@@ -546,7 +546,7 @@ const questions = [
     id: 9,
     type: "video",
     video: videos.vid9,
-    //icon: StopIcon
+     icon: icons.icon9, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ምልክቱ ባለበት አቅጣጫ እያሽከረከሩ ማለፍ የተፈቀደ ነው", "ማናቸውም አይነት ተሽከርካሪና በእጅ የሚገፉትም ጭምር እንዳያልፍበት የተከተከለ መንገድ", "ይህ ምልክት ባለበት መንገድ ብስክሌት እያሽከረከሩ ማለፍ የተፈቀደ ነው", "ለጭነት ተሽከርካሪ ማለፍ የተከለከለ መሆኑን ያመለክታል"],
     correctAnswer: 1,
@@ -556,7 +556,7 @@ const questions = [
     id: 10,
     type: "video",
     video: videos.vid10,
-    //icon: StopIcon
+     icon: icons.icon10, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ሞተር ብስክሌት እያሽከረከሩ ማለፍ የተከለከለ ነው", "ብስክሌት እያሽከረከሩ ማለፍ ክልክል መሆኑን ያሳያል", "ምልክቱ ባለበት አቅጣጫ እያሽከረከሩ ማለፍ ክልክል መሆኑን ያሳያል", "'ሀ' እና 'ለ' መልስ ናቸው"],
     correctAnswer: 2,
@@ -566,7 +566,7 @@ const questions = [
     id: 11,
     type: "video",
     video: videos.vid11,
-    //icon: StopIcon
+     icon: icons.icon11 ,
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ለጭነት ተሽከርካሪ ማለፍ የተከለከለ ነው", "ቀስቱ ወደሚያመለክተው በስተግራ ወደ ኋላ ዞሮ መመለስ ክልክል መሆኑን", "ቅድሚያ የለው መንገድ መሆኑን ያመለክታል", "የደሴቱን ግራ መስመር ይዘህ አሽከርክር"],
     correctAnswer: 2,
@@ -576,7 +576,7 @@ const questions = [
     id: 12,
     type: "video",
     video: videos.vid12,
-    //icon: StopIcon
+     icon: icons.icon12, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["የከተማ ክልልና የፍጥነት ወሰን መጨረሻ", "የከተማ ክልል ምልክት በከተማ ውስጥ ለማሽከርከር የተወሰኑትን ህጎች አክብር", "ይህ ምልክት በአለበት መንገድ ላይ እግረኞች እንዳይሔዱበት የተከተከለ ነው", "ተሽከርካሪ ማቆም የተከለከለ መሆኑን ያሳያል"],
     correctAnswer: 2,
@@ -586,7 +586,7 @@ const questions = [
     id: 13,
     type: "video",
     video: videos.vid2,
-    //icon: StopIcon
+     icon: icons.icon2, 
     question: "ይህ ምልክት የሚያስተላልፈው መልእክት",
     options: ["መንገዱ እየጠበበ የሚሄድ ስለሆነ ተጠንቅቀህ እለፍ", "ኣደገኛ ቁልቁለት ስለሚያጋጥምክ ከባድ ማርሽ በማስገባት ተጠንቅቀህ እለፍ", "የሚያንሸራትት መንገድ ስለሚያጋጥምህ ተጠንቅቀህ እለፍ", "ሁለት ነጠላ መንገድ ወደ ኣንድ ነጠና መንገድ ስለሚለወጥ ተጠንቅቀህ እለፍ"],
     correctAnswer: 1,
@@ -596,7 +596,7 @@ const questions = [
     id: 14,
     type: "video",
     video: videos.vid4,
-    //icon: StopIcon
+     icon: icons.icon4, 
     question: "ይህ ምልክት የሚያስተላልፈው መልእክት",
     options: ["መንገዱ በስተቀኝ በኩል ስለሚጠብ ተጠንቅቀህ ኣሽከርከር", " ሁለት ነጠላ መንገድ ወደ ኣንድ ነጠላ መንገድ ስለሚለወጥ ተጠንቅቀህ ኣሽከርከር", "በመንገድ ኣግድም የሚነፍስ ሃይለኛ ንፋስ ስላለ ተጠንቅቀህ ኣሽከርክር", "ኣንድ መንገድ የነበረው ወደ ሁለት ነጠላ መንገድ ስለሚለወጥ ተጠንቅቀህ ኣሽከርክር"],
     correctAnswer: 1,
@@ -606,7 +606,7 @@ const questions = [
     id: 15,
     type: "video",
     video: videos.vid6,
-    //icon: StopIcon
+     icon: icons.icon6, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["በመንገዱ ላይ አስጊ ወይም አደገኛ ሁኔታ ስለአለ በጥንቃቄ አሽከርክር", "ወደ ፊት የትራፊክ መብራት አለ ተጠንቅቀህ አሽከርክር", "ወደ ፊት ክብ የትራፊክ ደሴት አለ ተጠንቅቀህ አሽከርክር", "Oወደ ፊት የትራፊክ መጨናነቅ ስለአለ ፍጥነትህን በመቀነስ ተጠንቅቀህ አሽከርክር"],
     correctAnswer: 1,
@@ -616,7 +616,7 @@ const questions = [
     id: 16,
     type: "video",
     video: videos.vid8,
-    //icon: StopIcon
+     icon: icons.icon8, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ናዳ ያለበት መንገድ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "ተንቀሳቃሽ/ተነሺ ድልድይ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "የአስፋልት መንገድ መጨረሻ ስለአለ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "አደገኛ ጠመዝማዛ መንገድ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ"],
     correctAnswer: 1,
@@ -626,7 +626,7 @@ const questions = [
     id: 17,
     type: "video",
     video: videos.vid10,
-    //icon: StopIcon
+     icon: icons.icon10, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ሞተር ብስክሌት እያሽከረከሩ ማለፍ የተከለከለ ነው", "ብስክሌት እያሽከረከሩ ማለፍ ክልክል መሆኑን ያሳያል", "ምልክቱ ባለበት አቅጣጫ እያሽከረከሩ ማለፍ ክልክል መሆኑን ያሳያል", "'ሀ' እና 'ለ' መልስ ናቸው"],
     correctAnswer: 2,
@@ -636,7 +636,7 @@ const questions = [
     id: 18,
     type: "video",
     video: videos.vid12,
-    //icon: StopIcon
+     icon: icons.icon12, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["የከተማ ክልልና የፍጥነት ወሰን መጨረሻ", "የከተማ ክልል ምልክት በከተማ ውስጥ ለማሽከርከር የተወሰኑትን ህጎች አክብር", "ይህ ምልክት በአለበት መንገድ ላይ እግረኞች እንዳይሔዱበት የተከተከለ ነው", "ተሽከርካሪ ማቆም የተከለከለ መሆኑን ያሳያል"],
     correctAnswer: 2,
@@ -646,7 +646,7 @@ const questions = [
     id: 19,
     type: "video",
     video: videos.vid19,
-    //icon: StopIcon
+    icon: icons.icon19, 
     question: "ይህ ምልክት ሊያስተላልፈው የፈለገው መልዕክት",
     options: ["በመንገዱ ላይ ባለሁለት የባቡር ሐዲድ መስመር ስለአለ ተጠንቅቀህ እለፍ", "በመንገዱ ላይ ብዙ ሰዎች የሚተላለፉበት አካባቢ ስለሆነ ተጠንቅቀህ እለፍ", "መስቀለኛ መንገድ ስለሚያጋጥምህ ተጠንቅቀህ እለፍ", "በመንገዱ ላይ አስጊ ወይም አደገኛ ሁኔታ ሰለአለ በጥንቃቄ አሽከርክር"],
     correctAnswer: 2,
@@ -656,7 +656,7 @@ const questions = [
     id: 20,
     type: "video",
     video: videos.vid20,
-    //icon: StopIcon
+      icon: icons.icon20, 
     question: "የምልክቱን ትርጉም የያዘዉ የትኛዉ ነዉ?",
     options: ["በመንገዱ ላይ አስጊ ወይም አደገኛ ሁኔታ ስለአለ በጥንቃቄ አሽከርክር", "የሚያሸራትት መንገድ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ አሽከርክር", "በመንገዱ አግድም የሚነፍስ ሀይለኛ ነፋስ አለ ተጠንቅቀህ እለፍ", "ወደ ግራ የሚታጠፍ አደገኛ ኩርባ አለ"],
     correctAnswer: 2,
@@ -666,7 +666,7 @@ const questions = [
     id: 21,
     type: "video",
     video: videos.vid21,
-    //icon: StopIcon
+     icon: icons.icon21, 
     question: "ይህ ምልክት ሊያስተላልፈው የፈለገው መልዕክት",
     options: ["ሰዎች በብዛት ስለሚገኙ ተጠንቅቀህ እለፍ", "የአካል ጉደተኞች ማቋረጫ ስለአሉ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "ወደ ፊት የህፃናት መጫዎቻ ቦታ ስለአለ ፍጥነትህን በመቀነስ እለፍ", "መንገዱ ቀያሽ ስለአለ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ"],
     correctAnswer: 2,
@@ -676,7 +676,7 @@ const questions = [
     id: 22,
     type: "video",
     video: videos.vid22,
-    //icon: StopIcon
+     icon: icons.icon22, 
     question: "ከሚከተሉት ዉስጥ የምልክቱን ትርጉም የያዘዉ የቱ ነዉ?",
     options: ["ቅድሚያ ያለው መንገድ የሚለው ምልክት ትዕዛዝ መጨረሻ", "ከፊት ለፊት ለሚመጣ ተሽከርካሪ ቅድሚያ ሣይሰጡ ማሽከርከር ክልክል ነው", "የደሴቱን ቀኝ በመያዝ አሽከርክር", "ቅድሚያ ያለው መንገድ"],
     correctAnswer: 2,
@@ -686,7 +686,7 @@ const questions = [
     id: 23,
     type: "video",
     video: videos.vid23,
-    //icon: StopIcon
+      icon: icons.icon23, 
     question: "ይህ ምልክት ሊያስተላልፈው የፈለገው መልዕክት",
     options: ["ቅድሚያ ያለው መንገድ የማለው ምልክት ትዕዛዝ መጨረሻ", "ከወደፊት ለሚመጣ ተሽከርካሪ ቅድሚያ ስጥ", "የደሴቱን ቀኝ በመያዝ አሽከርከር", "ቅድሚያ ያለው መንገድ"],
     correctAnswer: 2,
@@ -696,7 +696,7 @@ const questions = [
     id: 24,
     type: "video",
     video: videos.vid24,
-    //icon: StopIcon
+     icon: icons.icon24 ,
     question: "የዚህ ምልክት ትክክለኛ ምድብ የቱ ነው",
     options: ["የሚያስጠነቅቅ", "የሚቆጣጠር", "መረጃ የሚሰጥ", "ቅድሚያ ያለው መንገድ"],
     correctAnswer: 2,
@@ -706,7 +706,7 @@ const questions = [
     id: 25,
     type: "video",
     video: videos.vid25,
-    //icon: StopIcon
+     icon: icons.icon25, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["የቀስት ምልክቱ እንደሚያመለክተው በስተቀኝ በኩል ብቻ እለፍ", "የቀስት ምልክቱ እንደሚያመለክተው በስተግራ በኩል ባለው መንገድ ላይ ብቻ እለፍ", "በመገናኛ መንገድ ላይ ለተላፊፊ ቅድሚያ ስጥ", "'ሀ' እና 'ሐ' መልስ ናቸው"],
     correctAnswer: 2,
@@ -716,7 +716,7 @@ const questions = [
     id: 26,
     type: "video",
     video: videos.vid26,
-    //icon: StopIcon
+     icon: icons.icon26, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ቅድሚያ ያለው መንገድ ለሚለው ምልክት ትዕዛዝ መጨረሻ", "ቅድሚያ ያለው መንገድ የሚለው መልዕክት ትዕዛዝ መጀመሪያ", "በመገናኛ መንገድ ላይ ለተላላፊ ቅድሚያ በመስጠት ተጠንቅቀህ እለፍ", "ከወደፊት ለሚመጣ ተሽከርካሪ ቅድሚያ ስጥ"],
     correctAnswer: 2,
@@ -726,7 +726,7 @@ const questions = [
     id: 27,
     type: "video",
     video: videos.vid27,
-    //icon: StopIcon
+     icon: icons.icon27, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["የአስፋልት መንገድ መጨረሻ ስለአለው ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "መንገድ ቀያሽ ስለአለ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "ወደ ወንዝ ዳርቻ የሚወሰድ መንገድ ስለአለ ተጠንቅቀህ እለፍ", "ተንቀሣቃሽ /ተነሺ/ ድልድይ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ"],
     correctAnswer: 2,
@@ -736,7 +736,7 @@ const questions = [
     id: 28,
     type: "video",
     video: videos.vid28,
-    //icon: StopIcon
+     icon: icons.icon28, 
     question: "ይህ ምልዕክት ሊያስተላልፈው የፈለገው መልዕክት",
     options: ["የአስፋልት መንገድ መጨረሻ ስለአለ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "መንገድ ቀያሽ ስለአለ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "ወደ ወንዝ ዳርቻ የሚወስድ መንገድ ስለአለ ተጠንቅቀህ እለፍ", "ተንቀሣቃሽ/ተነሺ ድልድይ ስለሚያጋጥምህ ፍጥነትህን በቀመነስ ተጠንቅቀህ እለፍ"],
     correctAnswer: 2,
@@ -746,7 +746,7 @@ const questions = [
     id: 29,
     type: "video",
     video: videos.vid29,
-    //icon: StopIcon
+     icon: icons.icon29, 
     question: "ከሚከተሉት ዉስጥ የምልክቱን ትርጉም የያዘዉ የቱ ነዉ?",
     options: ["ቅድሚያ ያለው መንገድ የሚለው ምልክት ትዕዛዝ መጨረሻ", "ከፊት ለፊት ለሚመጣ ተሽከርካሪ ቅድሚያ ሣይሰጡ ማሽከርከር ክልክል ነው", "የደሴቱን ቀኝ በመያዝ አሽከርክር", "ቅድሚያ ያለው መንገድ"],
     correctAnswer: 2,
@@ -756,7 +756,7 @@ const questions = [
     id: 30,
     type: "video",
     video: videos.vid30,
-    //icon: StopIcon
+     icon: icons.icon30, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ማንኛውንም አይነት የማስጠንቀቂያና የጡሩንባ ድምጽ ማሰማት ክልክል ነው", "ለጭነት ተሽከርካሪ ማለፍ ክልክል ነው", "ብስክሌት እያሽከረከሩ ማለፍ ክልክ ነው", "ብስክሌት እያሽከረከሩ ማለፍ የተፈቀደ ነው"],
     correctAnswer: 2,
@@ -766,7 +766,7 @@ const questions = [
     id: 31,
     type: "video",
     video: videos.vid31,
-    //icon: StopIcon
+      icon: icons.icon31, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["የምታሽከረክርበት መንገድ ወደ ግራ ስለሚታጠፍ የቀኝ ረድፍህን ጠብቀህ በጥንቃቄ እለፍ", "የተበላሸ መንገድ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "ፊት ለፊትና ወደ ቀኝ የሚያስኬድ መገናኛ መንገድ ስለሚያጋጥምህ ተጠንቅቀህ አሽከርክር", "ፊት ለፊትና ወደ ግራ የሚያስኬድ መገናኛ መንገድ ስለሚያጋጥምህ ተጠንቅቀህ አሽከርክር"],
     correctAnswer: 2,
@@ -776,7 +776,7 @@ const questions = [
     id: 32,
     type: "video",
     video: videos.vid32,
-    //icon: StopIcon
+     icon: icons.icon32, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["በመንገድ ላይ የባቡር ሐዲድ ማቋረጫ ስለአለ ተጠንቅቀህ እለፍ", "የትራፊክ መጨናነቅ ስለአለ ፍጥነትህን ቀንሰህ ተጓዝ", "ወደ ፊት የትራፊክ መብራት ስላለ ተጠንቅቀህ አሽከርክር", "'ሀ' እና 'ሐ' መልስ ናቸው"],
     correctAnswer: 2,
@@ -786,7 +786,7 @@ const questions = [
     id: 33,
     type: "video",
     video: videos.vid33,
-    //icon: StopIcon
+    icon: icons.icon33, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ወደ ፊት የህፃናት መጫዎቻ ቦታ ስለአለ ፍጥነትህን ቀንሰህ አሽከርክር", "ወደ ፊት የመንገድ ጥገና የሚካሔዱ ሠዎች ስለአሉ ተጠንቅቀህ እለፍ", "በመንገዱ ላይ ብዙ ሠዎች የሚተላለፍበት አካባቢ ስለሆነ ተጠንቅቀህ እለፍ", "ተማሪዎች የሚበዙበት አካባቢ ስለሆነ ተጠንቅቀህ እለፍ"],
     correctAnswer: 2,
@@ -796,7 +796,7 @@ const questions = [
     id: 34,
     type: "video",
     video: videos.vid34,
-    //icon: StopIcon
+    icon: icons.icon34, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["አደገኛ ቁልቁለት ስለሚያጋጥምህ ከባድ ማርሽ በማስገባት ተጠንቅቀህ እለፍ", "መንገዱ እየጠበበ የሚሔድ ስለሆነ ተጠንቅቀህ እለፍ", "የተበላሸ መንገድ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ አሽከርክር", "መልሱ የልም"],
     correctAnswer: 2,
@@ -806,7 +806,7 @@ const questions = [
     id: 35,
     type: "video",
     video: videos.vid35,
-    //icon: StopIcon
+    icon: icons.icon35, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["መዚጊያ ያለው የባቡር ሐዲድ ማቋረጫ ስለሚያጋጥምህ ተጠንቅቀህ እለፍ", "በመንገዱ ላይ አስጊ ወይም አደገኛ ሁኔታ ስለአለ በጥንቃቄ አሽከርክር", "ወደ ፊት የትራፊክ መጨናነቅ ስለአለ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "መልሱ የለም"],
     correctAnswer: 2,
@@ -816,7 +816,7 @@ const questions = [
     id: 36,
     type: "video",
     video: videos.vid36,
-    //icon: StopIcon
+    icon: icons.icon36, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["የምታሽከረክርበት መንገድ ወደ ግራ ስለሚታጠፍ የቀኝ ረድፍህን ይዘህ በጥንቃቄ እለፍ", "የተበላሸ መንገድ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "ወደ ፊትና ወደ ቀኝ የሚያስኬድ መገናኛ መንገድ ስለሚያጋጥምህ ተጠንቅቀህ አሽከርክር", "ፊት ለፊትና ወደ ግራ የሚያስኬድ መንገድ ስለሚያጋጥምህ ተጠንቅቀህ አሽከርክር"],
     correctAnswer: 2,
@@ -826,7 +826,7 @@ const questions = [
     id: 37,
     type: "video",
     video: videos.vid37,
-    //icon: StopIcon
+     icon: icons.icon37, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["የተበላሸ መንገድ ስለሚያጋጥምህ ፍጥነትህ በመቀነስ ተጠንቅቀህ አሽከርክር", "የምታሽከረክርበት መንገድ ወደ ግራ ስለሚታጠፍ የቀኝ ረድፍህን ይዘህ በጥንቃቄ እለፍ", "መንገዱ እየጠበበ የሚሔድ ስለሆነ ተጠንቅቀህ እለፍ", "በመንገዱ ላይ የባቡር ሐዲድ ማቋረጫ ስለአለ ተጠንቅቀህ እለፍ"],
     correctAnswer: 2,
@@ -836,7 +836,7 @@ const questions = [
     id: 38,
     type: "video",
     video: videos.vid38,
-    //icon: StopIcon
+     icon: icons.icon38, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["የምታሽከረክርበት መንገድ ወደ ግራ ስለሚታጠፍ የቀኝ ረድፍህን ጠብቀህ በጥንቃቄ እለፍ", "የተበላሸ መንገድ ስለሚያጋጥምህ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "ፊት ለፊትና ወደ ቀኝ የሚያስኬድ መገናኛ መንገድ ስለሚያጋጥምህ ተጠንቅቀህ አሽከርክር", "ፊት ለፊትና ወደ ግራ የሚያስኬድ መገናኛ መንገድ ስለሚያጋጥምህ ተጠንቅቀህ አሽከርክር"],
     correctAnswer: 2,
@@ -846,7 +846,7 @@ const questions = [
     id: 39,
     type: "video",
     video: videos.vid39,
-    //icon: StopIcon
+     icon: icons.icon39, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["መንገዱን የሚጠግኑ ሠራተኞች ስለአሉ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ", "ለ ተማሪዎች የሚበዙበት አካባቢ ስለሆነ ተጠንቅቀህ እለፍ", "በመንገዱ ላይ ብዙ ሰዎች የሚተላለፍበት አካባቢ ስለሆነ ተጠንቅቀህ እለፍ", "መልሱ የለም"],
     correctAnswer: 2,
@@ -856,7 +856,7 @@ const questions = [
     id: 40,
     type: "video",
     video: videos.vid40,
-    //icon: StopIcon
+     icon: icons.icon40, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["የከተማ ክልል ስለሆነ ተጠንቅቀህ አሽከርክር", "ወደ ፊት የትራፊክ መብራት አለ", "እግረኞች እንዳይሔዱበት ይከለክላል", "በሰው ሀይል የሚንቀሳቀሱ ተሽከርካሪዎችን የሚከለክል"],
     correctAnswer: 2,
@@ -866,7 +866,7 @@ const questions = [
     id: 41,
     type: "video",
     video: videos.vid41,
-    //icon: StopIcon
+     icon: icons.icon41, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ማንኛውም አይነት የማስጠንቀቂያና የጡሩንባ ድምጽ ማሰማት የተከለከለ ነው", "የከተማ ክልልና የፍጥነት ወሰን መጨረሻ", "ብስክሌቶች ብቻ ለማሽከርክር የተፈቀደ መንገድ", "ብስክሌቶች ለማሽከርክር የተከለከለበት መንገድ"],
     correctAnswer: 2,
@@ -876,7 +876,7 @@ const questions = [
     id: 42,
     type: "video",
     video: videos.vid42,
-    //icon: StopIcon
+     icon: icons.icon42, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ቅድሚያ ያለው መንገድ", "መኪና ለማቆም የሚከለክለው ምልክት ትዕዛዝ መጨረሻ መሆኑን የሚገልጽ ምልክት", "ለጭነት ተሽከርካሪዎች እንዲተላለፍበት የተፈቀደ መንገድ", "መልሱ አልተሠጠም"],
     correctAnswer: 2,
@@ -886,7 +886,7 @@ const questions = [
     id: 43,
     type: "video",
     video: videos.vid43,
-    //icon: StopIcon
+     icon: icons.icon43, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["አደገኛ ፍንዳታ የሚያስከትል ጭነት ለጫና ተሽከርካሪ ማለፍ የተከለከለ ነው", "ለጭነት ተሽከርካሪ ማለፍ ክልክል ነው", "የጭነት ተሽከርካሪዎች እንዲተላለፍበት የተፈቀደ መንገድ ነው", "በመንገዱ ላይ የሚፈናጠር ድንጋይ ስለአለ ፍጥነትህን በመቀነስ ተጠንቅቀህ እለፍ"],
     correctAnswer: 2,
@@ -896,7 +896,7 @@ const questions = [
     id: 44,
     type: "video",
     video: videos.vid44,
-    //icon: StopIcon
+     icon: icons.icon44, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ማንኛውንም አይነት የማስጠንቀቂያና የጡሩንባ ድምጽ ማሰማት ክልክል ነው", "ለጭነት ተሽከርካሪ ማለፍ ክልክል ነው", "ብስክሌት እያሽከረከሩ ማለፍ ክልክ ነው", "ብስክሌት እያሽከረከሩ ማለፍ የተፈቀደ ነው"],
     correctAnswer: 2,
@@ -906,7 +906,7 @@ const questions = [
     id: 45,
     type: "video",
     video: videos.vid45,
-    //icon: StopIcon
+      icon: icons.icon45,
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["ብስክሌት ብቻ ለማሽከርክር የተፈቀደ መንገድ", "ብስክሌት ብቻ ለማሽከርክር የተከለከለ መንገድ", "ለጭነት ተሽከርካሪዎች ብቻ የተፈቀደ", "መልሱ አልተሠጠም"],
     correctAnswer: 2,
@@ -916,7 +916,7 @@ const questions = [
     id: 46,
     type: "video",
     video: videos.vid1,   
-    //icon: StopIcon
+      icon: icons.icon1, 
     question: " ይህ ምልክት የሚያስተላልፈው መልእክት",
     options: ["ፊት ለፊት እና ወደ ቀኝ የሚያስኬድ መገናኛ ስለሚያጋጥምህ ተጠንቅቀህ ኣሽከርክር", "ፊት ለፊት እና ወደ ግራ የሚያስኬድ መገናኛ መንገድ ስለሚያጋጥምህ ተጠንቅቀህ ኣሽከርክር", "በመንገድህ ላይ ጠባብ ድልድይ ስለሚያጋጥምህ ተጠንቅቀህ ኣሽከርክር", "መልሱ የለም"],
     correctAnswer: 2,
@@ -926,7 +926,7 @@ const questions = [
     id: 47,
     type: "video",
     video: videos.vid23,
-    //icon: StopIcon
+     icon: icons.icon23, 
     question: "ይህ ምልክት ሊያስተላልፈው የፈለገው መልዕክት",
     options: ["ቅድሚያ ያለው መንገድ የማለው ምልክት ትዕዛዝ መጨረሻ", "ከወደፊት ለሚመጣ ተሽከርካሪ ቅድሚያ ስጥ", "የደሴቱን ቀኝ በመያዝ አሽከርከር", "ቅድሚያ ያለው መንገድ"],
     correctAnswer: 2,
@@ -936,7 +936,7 @@ const questions = [
     id: 48,
     type: "video",
     video: videos.vid40,
-    //icon: StopIcon
+    icon: icons.icon40, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["የከተማ ክልል ስለሆነ ተጠንቅቀህ አሽከርክር", "ወደ ፊት የትራፊክ መብራት አለ", "እግረኞች እንዳይሔዱበት ይከለክላል", "በሰው ሀይል የሚንቀሳቀሱ ተሽከርካሪዎችን የሚከለክል"],
     correctAnswer: 2,
@@ -946,7 +946,7 @@ const questions = [
     id: 49,
     type: "video",
     video: videos.vid37,
-    //icon: StopIcon
+      icon: icons.icon37, 
     question: "ይህ ምልክት የሚያስተላልፈው መልዕክት",
     options: ["የተበላሸ መንገድ ስለሚያጋጥምህ ፍጥነትህ በመቀነስ ተጠንቅቀህ አሽከርክር", "የምታሽከረክርበት መንገድ ወደ ግራ ስለሚታጠፍ የቀኝ ረድፍህን ይዘህ በጥንቃቄ እለፍ", "መንገዱ እየጠበበ የሚሔድ ስለሆነ ተጠንቅቀህ እለፍ", "በመንገዱ ላይ የባቡር ሐዲድ ማቋረጫ ስለአለ ተጠንቅቀህ እለፍ"],
     correctAnswer: 2,
@@ -956,7 +956,7 @@ const questions = [
     id: 50,
     type: "video",
     video: videos.vid24,
-    //icon: StopIcon
+     icon: icons.icon24, 
     question: "የዚህ ምልክት ትክክለኛ ምድብ የቱ ነው",
     options: ["የሚያስጠነቅቅ", "የሚቆጣጠር", "መረጃ የሚሰጥ", "ቅድሚያ ያለው መንገድ"],
     correctAnswer: 2,
