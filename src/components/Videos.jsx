@@ -1,6 +1,5 @@
 const videos = {
   vid2: "https://res.cloudinary.com/dz67dmf9k/video/upload/v1769987438/vid2_nyp2um.mp4",
-  vid3: "https://res.cloudinary.com/dz67dmf9k/video/upload/v1769987693/vid26_uwbddv.mp4",
   vid27: "https://res.cloudinary.com/dz67dmf9k/video/upload/v1769987699/vid27_oqyfej.mp4",
   vid25: "https://res.cloudinary.com/dz67dmf9k/video/upload/v1769987697/vid25_vpk38d.mp4",
     vid26: "https://res.cloudinary.com/dz67dmf9k/video/upload/v1769987693/vid26_uwbddv.mp4",
