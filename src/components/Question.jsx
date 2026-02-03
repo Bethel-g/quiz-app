@@ -1,4 +1,5 @@
 import { useEffect } from "react";
+import icons from "../icons/icons"; // adjust path if needed
 
 
 function Question({ data, selected, onSelect }) {
@@ -76,6 +77,7 @@ useEffect(() => {
 
 
       {/* QUESTION CARD */}
+      
       <div
         style={{
           backgroundColor: "#ffffff",
@@ -84,29 +86,31 @@ useEffect(() => {
           boxShadow: "0 10px 25px rgba(0,0,0,0.15)"
         }}
       >
-        <h2
-          style={{
-            marginBottom: "25px",
-            color: "#1e3c72",
-            lineHeight: "1.4",
-            fontSize: "26px"
-          }}
-        >
-          {data.question}
+      <h2
+  style={{
+    marginBottom: "25px",
+    color: "#1e3c72",
+    lineHeight: "1.4",
+    fontSize: "26px"
+  }}
+>
+  {data.question}
+</h2>
+
+{data.type === "image" && (
+  <img
+    src={icons[data.icon]} // use the icons object with the key
+    alt="question"
+    style={{
+      width: "100%",
+      borderRadius: "12px",
+      marginBottom: "20px"
+    }}
+    loading="lazy"
+  />
+)}
 
 
-        </h2>
-  {data.type === "image" && (
-    <img
-      src={data.icon}
-      alt="question"
-      style={{
-        width: "100%",
-        borderRadius: "12px",
-        marginBottom: "20px"
-      }}
-    />
-  )}
         {/* OPTIONS */}
         <div
           style={{
