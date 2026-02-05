@@ -1,5 +1,5 @@
 import React from "react";
-import videos from "./Videos";
+// import videos from "./Videos";
 
 function Home({ onStart }) {
   return (
@@ -56,7 +56,7 @@ function Home({ onStart }) {
         </div>
 
         {/* 🎬 INTRO VIDEO */}
-        <div style={{ marginBottom: "28px" }}>
+        {/* <div style={{ marginBottom: "28px" }}>
           <video
             src={videos.intro} // public/videos/intro.mp4
             controls
@@ -69,7 +69,7 @@ function Home({ onStart }) {
               boxShadow: "0 12px 30px rgba(0,0,0,0.2)"
             }}
           />
-        </div>
+        </div> */}
 
         {/* TITLE */}
         <h2 style={{ color: "#111", marginBottom: "14px", fontSize: "24px" }}>
